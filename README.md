@@ -16,3 +16,6 @@ Display UI components with [Storybook](https://storybook.js.org/):
 yarn rw storybook
 ```
 
+---
+
+[X] Day 1 - Building an icon component
