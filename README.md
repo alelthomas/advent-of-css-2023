@@ -18,4 +18,5 @@ yarn rw storybook
 
 ---
 
-- [x] Day 1 - Building an icon component
+- [x] 🎅 Day 1 - Building an icon component
+- [x] 🎄 Day 2 - Building an avatar component with status indicator 
