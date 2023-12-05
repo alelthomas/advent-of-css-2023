@@ -1,5 +1,67 @@
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Bebas+Neue&family=Inter:wght@400;500;700&family=Kalam:wght@700&display=swap');
 
+.avatar {
+  display: inline-block;
+  position: relative;
+  border-radius: 50%;
+}
+
+.avatar-style {
+  height: 5rem;
+  width: 5rem;
+  border: .35rem solid #fff;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar-img {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.avatar-initial {
+  background-color: #008d4c;
+  border-radius: 50%;
+  color: #fff;
+
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/* indicator */
+
+.indicator {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.indicator-style {
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
+  border: .15rem solid #fff;
+}
+
+.status-online {
+  fill: #fff;
+  background-color: #008d4c;
+}
+
+.status-offline {
+  fill: #fff;
+  background-color: #ff2d00;
+}
+
+.status-away {
+  fill: #fff;
+  background-color: #ff8c00;
+}
+
 /**
  * START --- SETUP TAILWINDCSS EDIT
  *
